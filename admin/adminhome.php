@@ -10,9 +10,9 @@
 				<div class="nav_links">
 					<ul>
 					<li id="active"> <a id="active" href=adminhome.php> Home </a> </li>
-					<li> <a href=displayposts.php> Posts </a> </li>
-					<li> <a href=displaycat.php> Categories </a> </li>
-					<li> <a href=displayinquiry.php> Inquiries </a> </li>
+					<li> <a href=post/displayposts.php> Posts </a> </li>
+					<li> <a href=category/displaycat.php> Categories </a> </li>
+					<li> <a href=inquiry/displayinquiry.php> Inquiries </a> </li>
 				</ul>
 				</div>
 			</nav>

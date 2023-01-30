@@ -101,6 +101,12 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 }
+
+h3 {
+	color: white;
+	text-align: left;
+	padding-top: var(--main-padding);
+}
  
 label {
 	display: block;
@@ -156,6 +162,10 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+input[type=file] {
+	padding-left: 30px;
+}
+
 .login {
 	display: inline-block;
 	text-align: center;
@@ -171,18 +181,22 @@ table {
 	text-align: center;
 	border-collapse: collapse;
 	margin: 10px;
-	width: 100%;
-	margin-left: 40%;
-	margin-right: 40%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	width: 90%;
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 td {
-	position: relative;
 	border-bottom: 2px solid;
 	border-top: 2px solid;
+	text-align: center;
+}
 
+.npost {
+	display: inline-block;
+	text-align: center;
 }
 
 @media only screen and (max-width: 550px) {

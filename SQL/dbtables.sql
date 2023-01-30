@@ -42,9 +42,11 @@ CREATE TABLE inquiry (
 	PRIMARY KEY(inquiryid)
 );
 
+
+
 INSERT INTO admin_acc (aid, username, password) VALUES (1, 'admin', 'password');
 
-INSERT INTO post (pid, ptitle, pimg, pcontent) VALUES (1, 'test', NULL, 'test content test content test content test content');
+INSERT INTO post (pid, ptitle, pimg, pcontent) VALUES (1, 'test', 'media/test.jpg', 'test content test content test content test content');
 
 INSERT INTO category (catid, catname) VALUES (1, 'Video');
 INSERT INTO category (catid, catname) VALUES (2, 'Image');

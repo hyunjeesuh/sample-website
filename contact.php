@@ -31,7 +31,7 @@
 				<script type="text/javascript" src="admin/javascript.js"></script>
 				
 				<div class="main">
-					<form name=contactForm action=admin/sendcontact.php
+					<form name=contactForm action=admin/inquiry/sendcontact.php
 					onsubmit="return validateForm()" method=POST>
 					
 					<label for="email">Email Address</label>
